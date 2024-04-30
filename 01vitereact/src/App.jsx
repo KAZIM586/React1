@@ -2,11 +2,12 @@
 import First from './first' 
 
 function App() {
+  const userName = 'Mohit kumar'
 
   return (
     <>
    <First/>
-   <p>This is our first project</p>
+   <p>This is our first project {userName}</p>
    </>
   )
 }
